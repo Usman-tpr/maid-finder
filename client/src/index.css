@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-shadow{
+  /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMzIsMCwjMDMwNzEyLCNmM2Y0ZjYsI2ZmZmZmZiwy */
+box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.02),
+0px 5px 4px rgba(3, 7, 18, 0.03),
+0px 12px 9px rgba(3, 7, 18, 0.05),
+0px 20px 15px rgba(3, 7, 18, 0.06),
+0px 32px 24px rgba(3, 7, 18, 0.08);
+
+}
+.form-shadow{
+  /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMywwLCMwMzA3MTIsI2YzZjRmNiwjZmZmZmZmLDI%3D */
+box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
+0px 0px 4px rgba(3, 7, 18, 0.03),
+0px 1px 9px rgba(3, 7, 18, 0.05),
+0px 2px 15px rgba(3, 7, 18, 0.06),
+0px 3px 24px rgba(3, 7, 18, 0.08);
+
+}
+.logo{
+  width: 150px;
+}
+.nav-items a{
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+.header-image{
+  z-index: -1;
+}
+.red-line{
+  border-left: 3px solid red;
+  padding-left: 5px;
+  height: 40px;
+}
+
+@media  screen and (max-width:600px) {
+.logo{
+  width: 70px;
+}
+.nav-items a{
+  font-weight: 400;
+ 
+  
+}
+  
+}
