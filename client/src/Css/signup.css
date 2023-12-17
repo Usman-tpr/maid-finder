@@ -1,0 +1,53 @@
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+form div input{
+    border: 1px solid rgb(39, 38, 38);
+    outline: none;
+    border-radius: 9px;
+    padding: 5px;
+}
+.important{
+    color: red;
+}
+form div label{
+    
+    font-size: 18px;
+}
+
+.signup-btn{
+    border: none;
+    background-color: #82B440;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+.bg-signup{
+    margin-top: 20px;
+    padding: 70px 20px 10px 20px;
+box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
+  0px 0px 4px rgba(3, 7, 18, 0.03),
+  0px 0px 9px rgba(3, 7, 18, 0.05),
+  0px 0px 15px rgba(3, 7, 18, 0.06),
+  0px 0px 24px rgba(3, 7, 18, 0.08);
+
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.custom-line {
+    border: 0;
+    height: 3px; /* Set the height/thickness of the line */
+    background-color: #487f00; /* Change the color of the line */
+    width: 15%; /* Set the width of the line */
+    margin: 20px 8px;
+  }
+  .design-color{
+    color: #82B440;
+  }
