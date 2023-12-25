@@ -1,7 +1,23 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import '../../Css/signup.css'
 import { Link } from 'react-router-dom'
 const Login = () => {
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value
+        }));
+    };
+
+    const [ error , setError ] = useState();
+    const [formData,setFormData]=useState({
+        phone:'',
+        password:''
+    })
+
+
   return (
     <div className="container">
                 <div className="row d-flex justify-content-center align-items-center">
@@ -12,12 +28,12 @@ const Login = () => {
 
                             <div>
                                 <label>Phone: <span className="important">*</span></label>
-                                <input type="text" />
+                                <input type="text" name='phone'onChange={handleInputChange }/>
                             </div>
                             <div className=''>
                                 
                                     <label>Password <span className="important">*</span></label>
-                                    <input type="text" />
+                                    <input type="text" name='password' onChange={handleInputChange}/>
                                 
                             
                             </div>

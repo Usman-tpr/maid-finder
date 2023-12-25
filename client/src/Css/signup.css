@@ -19,7 +19,7 @@ form div label{
 
 .signup-btn{
     border: none;
-    background-color: #82B440;
+    background-color: #301934;
     color: white;
     padding: 10px 20px;
     margin-top: 30px;
@@ -44,10 +44,21 @@ box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
 .custom-line {
     border: 0;
     height: 3px; /* Set the height/thickness of the line */
-    background-color: #487f00; /* Change the color of the line */
+    background-color: #301934; /* Change the color of the line */
     width: 15%; /* Set the width of the line */
     margin: 20px 8px;
   }
   .design-color{
     color: #82B440;
+  }
+
+  .position-absolute{
+    transition: 0.5s ease-in-out;
+    top: 0;
+    transform: translate(50% , 50%);
+    left: 30%;
+    background-color: #301934;
+    padding: 15px 15px 13px 15px;
+    color: white;
+    border-radius: 20px;
   }
